@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Claim Giveaway</title>
+  <meta charset="UTF-8">
+  <title>Offerwall Task Site</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Claim Giveaway!</h1>
-    <p>Coming soon... Stay tuned! 🎁</p>
+  <div class="container">
+    <h1>Complete 5 Tasks to Unlock Your Reward!</h1>
+    
+    <!-- Offerwall Container: Offers will be loaded here -->
+    <div id="offerwall">
+      <!-- Offers will appear here after fetching via API -->
+    </div>
+    
+    <!-- Task Counter Display -->
+    <div id="counter">Tasks Completed: 0/5</div>
+    
+    <!-- Final Reward Link (hidden until tasks are complete) -->
+    <a id="finalLink" href="https://www.real-destination.com" style="display: none;">Claim Your Reward!</a>
+  </div>
+  
+  <script src="script.js"></script>
 </body>
 </html>
